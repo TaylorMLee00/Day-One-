@@ -1,0 +1,13 @@
+git add Day01-DateTime/
+git commit -m "Day 1: Date & Time Printer project"
+git push
+# date_time.py
+import datetime
+
+# Print today's date
+print("Today's date is:", datetime.date.today())
+
+# Print the current time
+now = datetime.datetime.now()
+print("Current time is:", now.strftime("%H:%M:%S"))
+# Completed on August 25, 2025 22:03 CST)
