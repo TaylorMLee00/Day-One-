@@ -1,0 +1,7 @@
+# hello.py 
+#Ask for the user's name 
+name = input("What is your name?")
+#Printa personalized greeting as below
+print("Hello,  "+ name "!") 
+#This was completed at August 25, 2025 21:42 CST
+
