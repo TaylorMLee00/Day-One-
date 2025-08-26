@@ -6,14 +6,13 @@
 def calc(a, b, op):
       if op == "+":
           return a + b:
-    elif op == "-" 
-          return a - b:
-    elif op == "*" 
-          return a * b:
+    elif op == "-":
+          return a - b
+    elif op == "*":
+          return a * b
     elif op == "/":
       return "Error" if b == 0 else a/b
-    a = float(input("First number:  "))
-    op - input ("Operator ( + - * /"): ")
-    b - float (input("Second number: "))
-
-    print("Result:", calc(a, b, op))
+a = float(input("First number:  "))
+op = input("Operator ( + - * /"): ")
+b =float(input("Second number: "))
+print("Result:", calc(a, b, op))
