@@ -1,0 +1,18 @@
+# Math demo 
+#Simple math demo 
+git add math_demi.py
+git comit-m "Day 1: Math Demo Project"
+git push
+# math_demo.py
+# Day 1 project: Simple Math Demo
+
+# Ask for two variables
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+
+# Add values together
+result = a + b
+
+# Show the result
+print("The sum is:", result)
+#This was comletedon August 25, 2025 21:52 CST
